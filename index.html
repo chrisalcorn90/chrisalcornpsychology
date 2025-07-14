@@ -1,154 +1,144 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chris Alcorn Psychology</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background: #f4f9fb;
-      color: #03344f;
-    }
-    header {
-      background: #cce3f6;
-      text-align: center;
-      padding: 2rem 1rem 1rem;
-    }
-    header img {
-      max-width: 300px;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background: #03344f;
-      padding: 1rem;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .intro {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-      gap: 2rem;
-    }
-    .intro img {
-      width: 200px;
-      border-radius: 50%;
-    }
-    .quote {
-      background: #e0f0fb;
-      text-align: center;
-      padding: 1rem;
-      font-style: italic;
-      font-size: 1.2rem;
-      font-family: serif;
-    }
-    section {
-      padding: 2rem;
-    }
-    .section-title {
-      font-size: 1.5rem;
-      border-bottom: 2px solid #03344f;
-      margin-bottom: 1rem;
-    }
-    .contact-form {
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-    form {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-    form input, form textarea {
-      margin-bottom: 1rem;
-      padding: 0.5rem;
-      font-size: 1rem;
-    }
-    iframe {
-      width: 100%;
-      max-width: 400px;
-      height: 300px;
-      border: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Alcorn Psychology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Diastema&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Diastema', sans-serif;
+            margin: 0;
+            background: #f0f8ff;
+            color: #003366;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #e6f2ff;
+        }
+        nav {
+            background: #cce0ff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+        }
+        .flex-container {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .image-circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .quote {
+            font-style: italic;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 1.2em;
+            max-width: 800px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="Logo.png" alt="Chris Alcorn Psychology Logo">
-  </header>
-  <nav>
+
+<header>
+    <img src="Logo.png" alt="Chris Alcorn Psychology logo" style="width: 300px;">
+</header>
+
+<nav>
     <a href="#about">About</a>
     <a href="#therapies">Therapies</a>
     <a href="#fees">Fees</a>
     <a href="#contact">Contact</a>
-  </nav>
-  <div class="intro">
-    <img src="Headshot.jpeg" alt="Chris Alcorn Headshot">
-    <div>
-      <h2>Chris Alcorn</h2>
-      <p>Registered Psychologist</p>
-      <p>Phone: 0466 247 629</p>
-      <p>Email: chrisalcornpsych@gmail.com</p>
-      <p>Suite 5, 2-4 Stanton Road, Smithfield</p>
+</nav>
+
+<section id="about" class="section">
+    <div class="flex-container">
+        <div style="flex: 2;">
+            <h2>About</h2>
+            <p><strong>Chris Alcorn</strong><br>
+            Registered Psychologist<br>
+            Phone: 0466 247 629<br>
+            E-mail: chrisalcornpsych@gmail.com<br>
+            Address: Suite 5, 2-4 Stanton Road, Smithfield</p>
+            <div class="quote">“Just because no one else can heal or do your inner work for you doesn’t mean you can, should, or need to do it alone.” — Lisa Olivera</div>
+            <p>I truly believe that a supportive community filled with vibrant characters, opportunities and healthy perspectives can create an enlightening space to grow, heal, and meet one’s potential. If you decide to work with me, my aim is to be a healthy part of your community, in a professional and collaborative sense. My focus is to assess your unique situation and provide an evidence-based plan of action that supports your goals. I provide support to individuals 16 and up for a range of challenges, including:</p>
+            <ul>
+                <li>Anxiety</li>
+                <li>Depression</li>
+                <li>Trauma</li>
+                <li>Communication and interpersonal relationships</li>
+                <li>Adjustment to grief/loss/disability/separation/role transitions</li>
+                <li>Responding adaptively to pain</li>
+                <li>Neurodiversity affirming- providing support for Autism/ADHD and associated challenges.</li>
+            </ul>
+            <p>If you would like assistance with learning, growing, and disrupting patterns that may be hindering your progress and peace, please reach out. Telehealth appointments are also available.</p>
+            <p><strong>Please note:</strong> This is not a crisis service. If you are unsafe and require emergency assistance, please call 000.</p>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <img src="reception.jpeg" alt="Reception" class="image-circle">
+        </div>
     </div>
-  </div>
-  <div class="quote">
-    “Just because no one else can heal or do your inner work for you doesn’t mean you can, should, or need to do it alone.” — Lisa Olivera
-  </div>
-  <section id="about">
-    <h3 class="section-title">About</h3>
-    <p>I truly believe that a supportive community filled with vibrant characters, opportunities and healthy perspectives can create an enlightening space to grow, heal, and meet one’s potential. If you decide to work with me, my aim is to be a healthy part of your community, in a professional and collaborative sense. My focus is to assess your unique situation and provide an evidence-based plan of action that supports your goals. I provide support to individuals 16 and up for a range of challenges, including but not limited to:</p>
-    <ul>
-      <li>Anxiety</li>
-      <li>Depression</li>
-      <li>Trauma</li>
-      <li>Communication and interpersonal relationships</li>
-      <li>Adjustment to grief/loss/disability/separation/role transitions</li>
-      <li>Responding adaptively to pain</li>
-      <li>Neurodiversity affirming- providing support for Autism/ADHD and associated challenges.</li>
-    </ul>
-    <p>If you would like assistance with learning, growing, and disrupting patterns that may be hindering your progress and peace, please reach out.</p>
-    <p><strong>Please note:</strong> This is not a crisis service. If you are unsafe and require emergency assistance, please call 000.</p>
-  </section>
-  <section id="therapies">
-    <h3 class="section-title">Therapies</h3>
-    <p>Common evidence-based therapies that I use with clients include–</p>
-    <p><strong>Cognitive Behavioural Therapy (CBT)</strong><br>CBT identifies how your thoughts, feelings and behaviours interact...</p>
-    <p><strong>Dialectical Behaviour Therapy (DBT)</strong><br>A core therapy used by myself. DBT is skills based and can assist with being more mindful...</p>
-    <p><strong>Internal Family Systems (IFS)</strong><br>IFS, commonly known as “parts work” provides a non-pathologizing view of human behaviour...</p>
-    <p><strong>Collaborative and Proactive Solutions (CPS)</strong><br>Many challenges in living are often related to the way others make space for us...</p>
-  </section>
-  <section id="fees">
-    <h3 class="section-title">Fees</h3>
-    <p>Private fee sessions are $190 for 50 minutes. The cost of this can be reduced by engaging with your GP to discuss eligibility for a Mental Health Care Plan (MHCP)...</p>
+</section>
+
+<section id="therapies" class="section">
+    <div class="flex-container">
+        <div style="flex: 1; text-align: center;">
+            <img src="Therapy.jpeg" alt="Therapy" class="image-circle">
+        </div>
+        <div style="flex: 2;">
+            <h2>Therapies</h2>
+            <p><strong>Cognitive Behavioural Therapy (CBT):</strong> CBT identifies how your thoughts, feelings and behaviours interact, and employs a wide variety of techniques to alter one or more of these elements to assist in creating a healthy life balance. CBT has the widest studied evidence base of any therapy and can be applied to assist most challenges in living.</p>
+            <p><strong>Dialectical Behaviour Therapy (DBT):</strong> A core therapy used by myself. DBT is skills based and can assist with being more mindful, tolerating periods of distress, regulating ones emotions and becoming more interpersonally effective. This is a therapy that I believe has practical applications with most individuals, however can also be particularly useful for individuals experiencing frequent negative emotions and other conditions where significant mood lability may be present (e.g., Bipolar and Borderline personality).</p>
+            <p><strong>Internal Family Systems (IFS):</strong> IFS, commonly known as “parts work” provides a non-pathologizing view of human behaviour, allowing us to see how our different thoughts, feelings and behaviours are in their own ways adaptive. This view is neat because it helps with understanding that all behaviour serves some function. Through understanding the function of those parts of ourselves, rather than responding to them with guilt, anger, shame, annoyance or other difficult emotions, we can meet them with understanding and often compassion.</p>
+            <p><strong>Collaborative and Proactive Solutions (CPS):</strong> Many challenges in living are often related to the way others make space for us through the presence and often absence of collaboration and support. This approach is one that affirms that “people do well if they can” and that we are not all running the same race. When we are curious about why there may be a difficulty with implementing skills, we can drop our expectation that an individual “should” be a certain way, and we can create space for collaboration and shifting perspective. I commonly use this approach in supporting neurodiverse individuals or those navigating relationship ruptures.</p>
+        </div>
+    </div>
+</section>
+
+<section id="fees" class="section">
+    <h2>Fees</h2>
+    <p>Private fee sessions are $190 for 50 minutes. The cost of this can be reduced by engaging with your GP to discuss eligibility for a Mental Health Care Plan (MHCP). MHCP’s provide an initial 6 rebated sessions, with an additional 4 often provided upon return to the GP for review (capped at 10 per calendar year). Session fees are debited automatically post sessions and Medicare will send you a rebate of $98.95, leaving an out of pocket cost of $91.05 per rebated session. If you have private heal...
     <p>I work with a variety of insurance schemes including NDIS, Workcover, CTP and others. If you would like to know more about the costs associated with these various schemes, please contact me directly as amounts vary.</p>
-  </section>
-  <section id="contact">
-    <h3 class="section-title">Contact</h3>
-    <p>Chris Alcorn<br>Phone: 0466 247 629<br>Email: chrisalcornpsych@gmail.com<br>Suite 5, 2-4 Stanton Road, Smithfield</p>
-    <div class="contact-form">
-      <form action="mailto:chrisalcornpsych@gmail.com" method="post" enctype="text/plain">
-        <input type="text" name="First Name" placeholder="First Name" required>
-        <input type="text" name="Last Name" placeholder="Last Name" required>
-        <input type="tel" name="Phone" placeholder="Phone Number">
-        <input type="email" name="Email" placeholder="Email" required>
-        <label for="message">What you’re seeking</label>
-        <textarea name="Message" rows="6" placeholder="Type your message here..."></textarea>
-        <input type="submit" value="Send">
-      </form>
-      <iframe src="https://www.google.com/maps?q=Suite+5,+2-4+Stanton+Road,+Smithfield&output=embed"></iframe>
-    </div>
-  </section>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>
+        <strong>Chris Alcorn</strong><br>
+        Registered Psychologist<br>
+        Phone: 0466 247 629<br>
+        Email: chrisalcornpsych@gmail.com<br>
+        Practice Address: Suite 5, 2-4 Stanton Road, Smithfield
+    </p>
+    <form action="mailto:chrisalcornpsych@gmail.com" method="POST" enctype="text/plain">
+        <label>First Name:<br><input type="text" name="First Name" required></label><br><br>
+        <label>Last Name:<br><input type="text" name="Last Name" required></label><br><br>
+        <label>Phone Number:<br><input type="text" name="Phone Number"></label><br><br>
+        <label>Email Address:<br><input type="email" name="Email" required></label><br><br>
+        <label>What you're seeking:<br><textarea name="Message" rows="5" cols="40" required></textarea></label><br><br>
+        <input type="submit" value="Send Message">
+    </form>
+    <br>
+    <iframe src="https://www.google.com/maps?q=Suite+5,+2-4+Stanton+Road,+Smithfield&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
 </body>
 </html>
